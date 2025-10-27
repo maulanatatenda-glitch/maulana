@@ -1,0 +1,20 @@
+# Create main Python file
+import random
+import time
+
+def generate_single_random(min_val=1, max_val=100):
+    return random.randint(min_val, max_val)
+
+def generate_multiple_random(count=5, min_val=1, max_val=100):
+    return random.randint(min_val, max_val)
+    
+    # Multiple random numbers
+    multiple_random = generate_multiple_random(3)
+    print('three random numbers')
+    
+    # Custom range
+    custom_random = generate_single_random(100, 200)
+    print("random number:", (1-100))
+    
+    
+   
